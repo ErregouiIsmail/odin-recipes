@@ -1,8 +1,41 @@
 body{
     background-color: rgb(243, 182, 174);
-    text-align: center;
+    /* text-align: center; */
+}
+
+#container{
+    /* height: auto;
+    width: auto; */
+    outline: 2px solid red;
+    /* display: inline; */
+    
+}
+
+#logo{
+    width: auto;
+    text-align: left;
+    display: inline;
+    outline: 2px solid rgb(65, 12, 253);
+    /* box-sizing: content-box; */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    
 }
 
 h1 {
     font-family: "Brush Script MT";
+    display: inline;
+}
+
+#nav{
+    display: inline;
+    outline: 2px solid red;
+    margin: 0px 300px;
+}
+
+#nav li, #nav ul{
+    display: inline;
 }
